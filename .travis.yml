@@ -17,9 +17,9 @@ script: tox
 deploy:
   - provider: pypi
     distributions: sdist bdist_wheel
-    user: nitinsachdeo
+    user: __token__
     password:
-      secure: $PYPI_PASSWORD
+      secure: adNubQDyrdrtUQCBumZqD7hJglKaswSHRw1X00t6Fq7eb7wi5i5QjwZiK6pxoiKkoePhdzFVGpc2vaDir12DQGUW0IkZuRCDhI4g+BiXmbVOQbw9JYHE4ed6UKu60ZtHyg9pCI4jP+Q0Iw/Z/KmRRkPUyNmpX9I1Kxb5YHuZ9Ro391n+LyzaEHUM5XK2IqVrh/rYAzMU+2X7geIH5aUceDO14CMdt0dPE912vjRzTqg/D3/JhBG534kpSiF/HVrfEB5gHtEsRbUVqbqJOzFTpkyw/CGxtKdpqsiHH2nh/qlk/dSI4dnP7iYTZcQZA6R77OySWvPEaJOPD7shZC2zr3iPBzXPEkHFo2Q+a4diTjDQpjMEklPbLJtxedyc4An1PfwRb35T+C2aUlkkqkF/Z1cLZDBvJoarWA+Hq+Vt4bwWAcwTx0t53c75mlAlyyXGw7Z91KMjhnbnEh1Wt09chNiq/YNC8SFUNIV4AdbrmvsLa/q+AH/HbxLpJIyt12xNac1WOXg/K0jKw0DgA6fZVGWO365nXB/kdmvFXbSZpvZW19Xt6O4cxmjXSUYCSD9iAW2ks1WksRIRmaBH/UjntXY47Qz5eBVYssiyGI7mNVS7cWB0lvWJgflPiy0GVbH1NFB2+7tP8el+EtVif/Db1FxE31FLknthgLjxNrcl38s=
     on:
       tags: true
       repo: NitinSachdeo/bpoptimizer
